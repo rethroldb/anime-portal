@@ -1578,7 +1578,7 @@ const animeData = [
   decade: "2010s",
   genre: ["Sci-Fi", "Coming-of-age"],
   cover: "images/flcl_progressive.jpg",
-  description: "Continuation of FLCL themes with modern twists."
+  description: "Continuation of FLCL with modern twists."
 }
 ];
 
