@@ -1123,7 +1123,7 @@ const animeData = [
 },
 {
   title: "Now and Then, Here and There",
-  tier: "a",
+  tier: "classics",
   year: 1999,
   decade: "1990s",
   genre: ["Drama", "War"],
@@ -1253,17 +1253,17 @@ const animeData = [
   year: 2005,
   decade: "2000s",
   genre: ["Sci-Fi", "Drama"],
-  cover: "images/noein.webp",
-  description: "Parallel worlds collide in a complex sci-fi story."
+  cover: "images/noein.jpg",
+  description: "Parallel worlds collide in a cross-dimensional war in a complex sci-fi story."
 },
 {
   title: "Princess Tutu",
-  tier: "a",
+  tier: "b",
   year: 2002,
   decade: "2000s",
   genre: ["Fantasy", "Drama"],
-  cover: "images/princess_tutu.webp",
-  description: "Fairy tale story with deep narrative twists."
+  cover: "images/princess_tutu.jpg",
+  description: "Fairy tale story with deep narrative twists as Ahiru tries to restore the shattered heart of a prince."
 },
 {
   title: "Tekkonkinkreet",
@@ -1271,7 +1271,7 @@ const animeData = [
   year: 2006,
   decade: "2000s",
   genre: ["Drama", "Action"],
-  cover: "images/tekkonkinkreet.webp",
+  cover: "images/tekkonkinkreet.jpg",
   description: "Two street kids survive in a chaotic city."
 },
 {
@@ -1280,8 +1280,8 @@ const animeData = [
   year: 2009,
   decade: "2000s",
   genre: ["Racing", "Action"],
-  cover: "images/redline.webp",
-  description: "Insane high-speed race with some of the best animation ever."
+  cover: "images/redline.jpg",
+  description: "Insane high-speed race with some of the best animation of all time."
 },
 {
   title: "Mind Game",
@@ -1289,17 +1289,17 @@ const animeData = [
   year: 2004,
   decade: "2000s",
   genre: ["Experimental", "Comedy"],
-  cover: "images/mind_game.webp",
+  cover: "images/mind_game.jpg",
   description: "Wild, surreal film about life, death, and second chances."
 },
 {
   title: "Time of Eve",
-  tier: "a",
+  tier: "b",
   year: 2008,
   decade: "2000s",
   genre: ["Sci-Fi", "Drama"],
-  cover: "images/time_of_eve.webp",
-  description: "Explores human relationships with androids."
+  cover: "images/time_of_eve.jpeg",
+  description: "Explores human relationships with androids following high schooler Rikuo who discovers his android housemaid acting independently and tracker her to a secret cafe."
 },
 {
   title: "Canaan",
@@ -1307,7 +1307,7 @@ const animeData = [
   year: 2009,
   decade: "2000s",
   genre: ["Action", "Thriller"],
-  cover: "images/canaan.webp",
+  cover: "images/canaan.jpg",
   description: "A mercenary gets caught in a biological warfare conflict."
 },
 {
@@ -1316,7 +1316,7 @@ const animeData = [
   year: 2007,
   decade: "2000s",
   genre: ["Fantasy", "Adventure"],
-  cover: "images/moribito.webp",
+  cover: "images/moribito.jpg",
   description: "A spear-wielding bodyguard protects a prince with a mysterious fate."
 },
 {
@@ -1326,7 +1326,7 @@ const animeData = [
   decade: "2000s",
   genre: ["Mecha", "Romance"],
   cover: "images/eureka_seven.webp",
-  description: "Coming-of-age story mixed with mecha battles and rebellion."
+  description: "Coming-of-age story about a 14 year old named Renton Thurston, mixed with mecha battles, love and rebellion."
 },
 {
   title: "Planetes",
@@ -1334,8 +1334,8 @@ const animeData = [
   year: 2003,
   decade: "2000s",
   genre: ["Sci-Fi", "Drama"],
-  cover: "images/planetes.webp",
-  description: "Realistic space story about debris collectors."
+  cover: "images/planetes.jpg",
+  description: "Realistic space story about debris collectors in 2075, who collect hazardous junk orbiting Earth."
 },
 {
   title: "Bartender",
@@ -1352,7 +1352,7 @@ const animeData = [
   year: 2005,
   decade: "2000s",
   genre: ["Slice of Life", "Fantasy"],
-  cover: "images/aria.webp",
+  cover: "images/aria.jpg",
   description: "Relaxing gondola life on a terraformed Mars."
 },
 {
@@ -1361,7 +1361,7 @@ const animeData = [
   year: 2004,
   decade: "2000s",
   genre: ["Drama", "Sci-Fi"],
-  cover: "images/gankutsuou.webp",
+  cover: "images/gankutsuou.jpg",
   description: "Stylized retelling of The Count of Monte Cristo."
 },
 {
@@ -1370,17 +1370,215 @@ const animeData = [
   year: 2009,
   decade: "2000s",
   genre: ["Drama", "Psychological"],
-  cover: "images/aoi_bungaku.webp",
-  description: "Adaptations of classic Japanese literature."
+  cover: "images/aoi_bungaku.jpg",
+  description: "Adaptations of classic Japanese literature covering themes of alienation, greed, and insanity."
 },
 {
   title: "Ping Pong Club",
-  tier: "c",
+  tier: "classics",
   year: 1995,
   decade: "1990s",
   genre: ["Comedy", "Ecchi"],
-  cover: "images/ping_pong_club.webp",
+  cover: "images/ping_pong_club.png",
   description: "Crude, chaotic comedy centered around a ping pong club."
+},
+{
+  title: "Fullmetal Alchemist: Brotherhood",
+  tier: "s",
+  year: 2009,
+  decade: "2000s",
+  genre: ["Action", "Adventure"],
+  cover: "images/fmab.webp",
+  description: "Two brothers search for the Philosopher's Stone in a tightly written epic."
+},
+{
+  title: "Spirited Away",
+  tier: "s",
+  year: 2001,
+  decade: "2000s",
+  genre: ["Fantasy", "Adventure"],
+  cover: "images/spirited_away.webp",
+  description: "A girl navigates a mysterious spirit world to save her parents."
+},
+{
+  title: "Princess Mononoke",
+  tier: "classics",
+  year: 1997,
+  decade: "1990s",
+  genre: ["Fantasy", "Action"],
+  cover: "images/princess_mononoke.jpg",
+  description: "Conflict between nature and industry in a mythic world."
+},
+{
+  title: "Ghost in the Shell",
+  tier: "classics",
+  year: 1995,
+  decade: "1990s",
+  genre: ["Cyberpunk", "Sci-Fi"],
+  cover: "images/ghost_in_the_shell.jpg",
+  description: "Philosophical cyberpunk exploring identity and consciousness."
+},
+{
+  title: "Ghost in the Shell: Stand Alone Complex",
+  tier: "s",
+  year: 2002,
+  decade: "2000s",
+  genre: ["Cyberpunk", "Action"],
+  cover: "images/gitS_sac.jpg",
+  description: "Cybercrime investigations in a futuristic networked world."
+},
+{
+  title: "Paprika",
+  tier: "s",
+  year: 2006,
+  decade: "2000s",
+  genre: ["Sci-Fi", "Psychological"],
+  cover: "images/paprika.jpg",
+  description: "Dream worlds and reality merge in a visually wild narrative."
+},
+{
+  title: "Your Name",
+  tier: "a",
+  year: 2016,
+  decade: "2010s",
+  genre: ["Romance", "Drama"],
+  cover: "images/your_name.webp",
+  description: "Two strangers mysteriously swap bodies across time."
+},
+{
+  title: "A Silent Voice",
+  tier: "a",
+  year: 2016,
+  decade: "2010s",
+  genre: ["Drama", "Romance"],
+  cover: "images/silent_voice.jpg",
+  description: "A story of redemption, bullying, and human connection."
+},
+{
+  title: "Weathering With You",
+  tier: "a",
+  year: 2019,
+  decade: "2010s",
+  genre: ["Romance", "Fantasy"],
+  cover: "images/weathering_with_you.jpg",
+  description: "A runaway meets a girl who can control the weather."
+},
+{
+  title: "Violet Evergarden",
+  tier: "b",
+  year: 2018,
+  decade: "2010s",
+  genre: ["Drama", "Slice of Life"],
+  cover: "images/violet_evergarden.jpg",
+  description: "A former soldier learns emotion through writing letters."
+},
+{
+  title: "March Comes in Like a Lion",
+  tier: "a",
+  year: 2016,
+  decade: "2010s",
+  genre: ["Drama", "Slice of Life"],
+  cover: "images/march_comes_in_like_a_lion.jpg",
+  description: "A young shogi player struggles with loneliness and growth."
+},
+{
+  title: "Bakemonogatari",
+  tier: "a",
+  year: 2009,
+  decade: "2000s",
+  genre: ["Supernatural", "Dialogue"],
+  cover: "images/bakemonogatari.jpg",
+  description: "Stylized supernatural stories driven by dialogue and character."
+},
+{
+  title: "Monogatari Series: Second Season",
+  tier: "a",
+  year: 2013,
+  decade: "2010s",
+  genre: ["Supernatural", "Psychological"],
+  cover: "images/monogatari_second_season.jpg",
+  description: "Expanded arcs diving deeper into each character from Bakemonogatari series."
+},
+{
+  title: "Clannad: After Story",
+  tier: "s",
+  year: 2008,
+  decade: "2000s",
+  genre: ["Drama", "Romance"],
+  cover: "images/clannad_after_story.jpg",
+  description: "Emotional story of Tomoyo Okazaki and Nagisa Furukawa after high school about family, love, and loss."
+},
+{
+  title: "Anohana",
+  tier: "a",
+  year: 2011,
+  decade: "2010s",
+  genre: ["Drama", "Supernatural"],
+  cover: "images/anohana.jpg",
+  description: "Friends reunite to confront past trauma."
+},
+{
+  title: "Cyberpunk: Edgerunners",
+  tier: "s",
+  year: 2022,
+  decade: "2020s",
+  genre: ["Cyberpunk", "Action"],
+  cover: "images/edgerunners.jpg",
+  description: "A street kid David Martinez fights to survive in a brutal cyberpunk world."
+},
+{
+  title: "Heavenly Delusion",
+  tier: "s",
+  year: 2023,
+  decade: "2020s",
+  genre: ["Sci-Fi", "Mystery"],
+  cover: "images/heavenly_delusion.jpg",
+  description: "Parallel stories unfold in a mysterious post-apocalyptic world."
+},
+{
+  title: "Pluto",
+  tier: "s",
+  year: 2023,
+  decade: "2020s",
+  genre: ["Sci-Fi", "Mystery"],
+  cover: "images/pluto.png",
+  description: "A mature reimagining of Astro Boy with deep themes and storytelling."
+},
+{
+  title: "Sonny Boy",
+  tier: "s",
+  year: 2021,
+  decade: "2020s",
+  genre: ["Psychological", "Sci-Fi"],
+  cover: "images/sonny_boy.jpg",
+  description: "Students drift into alternate realities with abstract rules."
+},
+{
+  title: "Baccano!",
+  tier: "a",
+  year: 2007,
+  decade: "2000s",
+  genre: ["Action", "Crime"],
+  cover: "images/baccano.jpg",
+  description: "Non-linear storytelling of gangsters, immortals, and chaos."
+},
+{
+  title: "Durarara!!",
+  tier: "s",
+  year: 2010,
+  decade: "2010s",
+  genre: ["Action", "Urban"],
+  cover: "images/durarara.jpg",
+  description: "Interconnected lives collide in a chaotic city."
+},
+{
+  title: "FLCL Progressive",
+  tier: "s",
+  year: 2018,
+  decade: "2010s",
+  genre: ["Sci-Fi", "Coming-of-age"],
+  cover: "images/flcl_progressive.jpg",
+  description: "Continuation of FLCL themes with modern twists."
 }
 ];
 
