@@ -418,7 +418,7 @@ const animeData = [
 },
 {
   title: "Inuyasha",
-  tier: "b",
+  tier: "a",
   year: 2000,
   decade: "2000s",
   genre: ["Fantasy", "Adventure"],
@@ -932,5 +932,455 @@ const animeData = [
   description: "Follows Roger Smith, a professional negotiator in Paradigm City a metropolis town where resident suffer from amnesia as everyone has lost their memories 40 years prior to the start of the series."
 },
 
+{
+  title: "Monster",
+  tier: "s",
+  year: 2004,
+  decade: "2000s",
+  genre: ["Psychological", "Thriller"],
+  cover: "images/monster.jpeg",
+  description: "A brilliant neurosurgeon doctor named Kenzo Tenma hunts down a former patient in Germany who becomes a serial killer."
+},
+{
+  title: "Black Lagoon",
+  tier: "a",
+  year: 2006,
+  decade: "2000s",
+  genre: ["Action", "Crime"],
+  cover: "images/black_lagoon.webp",
+  description: "Modern pirates carry out dangerous missions in a lawless world."
+},
+{
+  title: "FLCL",
+  tier: "classics",
+  year: 2000,
+  decade: "2000s",
+  genre: ["Sci-Fi", "Comedy"],
+  cover: "images/flcl.jpg",
+  description: "Chaotic coming-of-age story about 12 year old Naota Nandaba whose life is disrupted with surreal action and energy caused by an eccentric alien named Haruko Haruhara."
+},
+{
+  title: "Ergo Proxy",
+  tier: "a",
+  year: 2006,
+  decade: "2000s",
+  genre: ["Sci-Fi", "Psychological"],
+  cover: "images/ergo_proxy.jpg",
+  description: "Dark philosophical journey in a dystopian future investigating the Cogito virus which gives sentient souls to robots."
+},
+{
+  title: "Paranoia Agent",
+  tier: "a",
+  year: 2004,
+  decade: "2000s",
+  genre: ["Psychological", "Mystery"],
+  cover: "images/paranoia_agent.jpg",
+  description: "A mysterious attacker named Lil Slugger triggers strange events across the city."
+},
+{
+  title: "Texhnolyze",
+  tier: "a",
+  year: 2003,
+  decade: "2000s",
+  genre: ["Sci-Fi", "Dark"],
+  cover: "images/texhnolyze.jpg",
+  description: "Bleak cyberpunk story about power, control, and decay. Following Ichise, a prizefighter in the crumbling underground city of Lux."
+},
+{
+  title: "Serial Experiments Lain",
+  tier: "classics",
+  year: 1998,
+  decade: "1990s",
+  genre: ["Cyberpunk", "Psychological"],
+  cover: "images/lain.jpg",
+  description: "A girl becomes entangled in a mysterious digital network named The Wired after receiving an email from a dead classmate."
+},
+{
+  title: "Ping Pong the Animation",
+  tier: "a",
+  year: 2014,
+  decade: "2010s",
+  genre: ["Sports", "Drama"],
+  cover: "images/ping_pong.jpg",
+  description: "Unique art style and powerful character storytelling about childhood friends Peco and Smile through table tennis."
+},
+{
+  title: "Devilman Crybaby",
+  tier: "s",
+  year: 2018,
+  decade: "2010s",
+  genre: ["Action", "Horror"],
+  cover: "images/devilman_crybaby.jpg",
+  description: "Tragic story of demons and humanity with intense themes. Following teenager Akira Fudo, who merges with a demon to fight a hidden race of demons reawakening to take over Earth."
+},
+{
+  title: "Kaiji",
+  tier: "a",
+  year: 2007,
+  decade: "2000s",
+  genre: ["Psychological", "Gambling"],
+  cover: "images/kaiji.png",
+  description: "High-stakes gambling anime about survival and desperation. Following Kaiji Ito a hopeless, unemployed gambles who falles into massive debt after being tricked by a former coworker."
+},
+{
+  title: "Terror in Resonance",
+  tier: "a",
+  year: 2014,
+  decade: "2010s",
+  genre: ["Thriller", "Drama"],
+  cover: "images/zankyou_no_terror.jpg",
+  description: "Two boys carry out terrorist acts in Tokyo with deeper motives."
+},
+{
+  title: "Dororo",
+  tier: "a",
+  year: 2019,
+  decade: "2010s",
+  genre: ["Samurai", "Action"],
+  cover: "images/dororo.jpg",
+  description: "A cursed boy reclaims his body parts from demons due to his fathers pact."
+},
+{
+  title: "Noragami",
+  tier: "a",
+  year: 2014,
+  decade: "2010s",
+  genre: ["Supernatural", "Action"],
+  cover: "images/noragami.png",
+  description: "Yato a homeless, minor god of calamity tries to gain followers and purpose by taking odd jobs for 5 yen."
+},
+{
+  title: "Akudama Drive",
+  tier: "b",
+  year: 2020,
+  decade: "2020s",
+  genre: ["Cyberpunk", "Action"],
+  cover: "images/akudama_drive.jpg",
+  description: "A group of elite criminals are forced into a dangerous heist mission."
+},
+{
+  title: "Odd Taxi",
+  tier: "s",
+  year: 2021,
+  decade: "2020s",
+  genre: ["Mystery", "Drama"],
+  cover: "images/odd_taxi.webp",
+  description: "A taxi driver gets caught in a web of crime and secrets."
+},
+{
+  title: "Ranking of Kings",
+  tier: "a",
+  year: 2021,
+  decade: "2020s",
+  genre: ["Fantasy", "Adventure"],
+  cover: "images/ranking_of_kings.jpg",
+  description: "A deaf prince proves his strength in a harsh world."
+},
+{
+  title: "Made in Abyss",
+  tier: "s",
+  year: 2017,
+  decade: "2010s",
+  genre: ["Adventure", "Dark"],
+  cover: "images/made_in_abyss.jpg",
+  description: "Riko an orphan dives into a massive, deadly and mysterious pit called the Abyss to find her mother."
+},
+{
+  title: "Re:Zero",
+  tier: "s",
+  year: 2016,
+  decade: "2010s",
+  genre: ["Isekai", "Psychological"],
+  cover: "images/rezero.webp",
+  description: "A boy relives death repeatedly in another world."
+},
+{
+  title: "Konosuba",
+  tier: "b",
+  year: 2016,
+  decade: "2010s",
+  genre: ["Comedy", "Isekai"],
+  cover: "images/konosuba.jpeg",
+  description: "A dysfunctional party goes on absurd adventures."
+},
+{
+  title: "Overlord",
+  tier: "c",
+  year: 2015,
+  decade: "2010s",
+  genre: ["Isekai", "Fantasy"],
+  cover: "images/overlord.jpg",
+  description: "A player becomes trapped as an overpowered undead ruler."
+},
+{
+  title: "Haibane Renmei",
+  tier: "a",
+  year: 2002,
+  decade: "2000s",
+  genre: ["Drama", "Mystery"],
+  cover: "images/haibane_renmei.jpg",
+  description: "Quiet, emotional story about angels-like beings searching for purpose."
+},
+{
+  title: "Now and Then, Here and There",
+  tier: "a",
+  year: 1999,
+  decade: "1990s",
+  genre: ["Drama", "War"],
+  cover: "images/now_and_then_here_and_there.jpeg",
+  description: "A brutal isekai exploring war, survival, and humanity."
+},
+{
+  title: "Kino's Journey",
+  tier: "a",
+  year: 2003,
+  decade: "2000s",
+  genre: ["Adventure", "Philosophical"],
+  cover: "images/kinos_journey.jpg",
+  description: "A traveler visits strange countries, each with unique rules."
+},
+{
+  title: "Dennou Coil",
+  tier: "a",
+  year: 2007,
+  decade: "2000s",
+  genre: ["Sci-Fi", "Mystery"],
+  cover: "images/dennou_coil.jpg",
+  description: "Kids explore augmented reality worlds with hidden dangers."
+},
+{
+  title: "Kaiba",
+  tier: "a",
+  year: 2008,
+  decade: "2000s",
+  genre: ["Sci-Fi", "Psychological"],
+  cover: "images/kaiba.avif",
+  description: "Memory and identity explored in a surreal sci-fi setting where memroies are digitized and bodies are replaceable commodities."
+},
+{
+  title: "The Tatami Galaxy",
+  tier: "s",
+  year: 2010,
+  decade: "2010s",
+  genre: ["Comedy", "Psychological"],
+  cover: "images/tatami_galaxy.png",
+  description: "A college student's life resets as he chases the perfect path in 4 parallel, looping realities."
+},
+{
+  title: "Parasyte",
+  tier: "s",
+  year: 2014,
+  decade: "2010s",
+  genre: ["Horror", "Action"],
+  cover: "images/parasyte.jpg",
+  description: "A teen shares his body with a parasite species that consumes human flesh and fights others like it."
+},
+{
+  title: "91 Days",
+  tier: "a",
+  year: 2016,
+  decade: "2010s",
+  genre: ["Crime", "Drama"],
+  cover: "images/91_days.jpg",
+  description: "Mafia revenge story following the Vanetti crime family set during Prohibition."
+},
+{
+  title: "House of Five Leaves",
+  tier: "a",
+  year: 2010,
+  decade: "2010s",
+  genre: ["Samurai", "Drama"],
+  cover: "images/house_of_five_leaves.png",
+  description: "Slow, character-driven samurai story about Akitsu Masanosuke a timid, masterless samurai who finds work as a bodyguard for Yaichi, leader of a kidnapper gang, with unique art style."
+},
+{
+  title: "Erased",
+  tier: "a",
+  year: 2016,
+  decade: "2010s",
+  genre: ["Mystery", "Thriller"],
+  cover: "images/erased.jpeg",
+  description: "A man travels back in time to prevent childhood tragedies."
+},
+{
+  title: "Shigurui",
+  tier: "b",
+  year: 2007,
+  decade: "2000s",
+  genre: ["Samurai", "Drama"],
+  cover: "images/shigurui.jpg",
+  description: "Extremely brutal samurai drama about rivalry and obsession."
+},
+{
+  title: "Gungrave",
+  tier: "a",
+  year: 2003,
+  decade: "2000s",
+  genre: ["Action", "Crime"],
+  cover: "images/gungrave.jpg",
+  description: "Mafia story that turns supernatural, focused on loyalty and betrayal following Brandon Heat and Harry Macdowell as they rise through the ranks of a crime syndicate named Millennion."
+},
+{
+  title: "Boogiepop Phantom",
+  tier: "a",
+  year: 2000,
+  decade: "2000s",
+  genre: ["Psychological", "Horror"],
+  cover: "images/boogiepop_phantom.jpg",
+  description: "Fragmented storytelling about urban legends and psychological horror."
+},
+{
+  title: "RahXephon",
+  tier: "b",
+  year: 2002,
+  decade: "2000s",
+  genre: ["Mecha", "Drama"],
+  cover: "images/rahxephon.jpg",
+  description: "Mecha series with heavy emotional and mysterious elements following 17 year old artist Ayato Kamina who defends against the Mulians, an alien race."
+},
+{
+  title: "Wolf's Rain",
+  tier: "a",
+  year: 2003,
+  decade: "2000s",
+  genre: ["Adventure", "Drama"],
+  cover: "images/wolfs_rain.jpg",
+  description: "Wolves disguised as humans search for paradise in a dying world."
+},
+{
+  title: "Noein",
+  tier: "b",
+  year: 2005,
+  decade: "2000s",
+  genre: ["Sci-Fi", "Drama"],
+  cover: "images/noein.webp",
+  description: "Parallel worlds collide in a complex sci-fi story."
+},
+{
+  title: "Princess Tutu",
+  tier: "a",
+  year: 2002,
+  decade: "2000s",
+  genre: ["Fantasy", "Drama"],
+  cover: "images/princess_tutu.webp",
+  description: "Fairy tale story with deep narrative twists."
+},
+{
+  title: "Tekkonkinkreet",
+  tier: "a",
+  year: 2006,
+  decade: "2000s",
+  genre: ["Drama", "Action"],
+  cover: "images/tekkonkinkreet.webp",
+  description: "Two street kids survive in a chaotic city."
+},
+{
+  title: "Redline",
+  tier: "s",
+  year: 2009,
+  decade: "2000s",
+  genre: ["Racing", "Action"],
+  cover: "images/redline.webp",
+  description: "Insane high-speed race with some of the best animation ever."
+},
+{
+  title: "Mind Game",
+  tier: "a",
+  year: 2004,
+  decade: "2000s",
+  genre: ["Experimental", "Comedy"],
+  cover: "images/mind_game.webp",
+  description: "Wild, surreal film about life, death, and second chances."
+},
+{
+  title: "Time of Eve",
+  tier: "a",
+  year: 2008,
+  decade: "2000s",
+  genre: ["Sci-Fi", "Drama"],
+  cover: "images/time_of_eve.webp",
+  description: "Explores human relationships with androids."
+},
+{
+  title: "Canaan",
+  tier: "b",
+  year: 2009,
+  decade: "2000s",
+  genre: ["Action", "Thriller"],
+  cover: "images/canaan.webp",
+  description: "A mercenary gets caught in a biological warfare conflict."
+},
+{
+  title: "Moribito",
+  tier: "a",
+  year: 2007,
+  decade: "2000s",
+  genre: ["Fantasy", "Adventure"],
+  cover: "images/moribito.webp",
+  description: "A spear-wielding bodyguard protects a prince with a mysterious fate."
+},
+{
+  title: "Eureka Seven",
+  tier: "a",
+  year: 2005,
+  decade: "2000s",
+  genre: ["Mecha", "Romance"],
+  cover: "images/eureka_seven.webp",
+  description: "Coming-of-age story mixed with mecha battles and rebellion."
+},
+{
+  title: "Planetes",
+  tier: "a",
+  year: 2003,
+  decade: "2000s",
+  genre: ["Sci-Fi", "Drama"],
+  cover: "images/planetes.webp",
+  description: "Realistic space story about debris collectors."
+},
+{
+  title: "Bartender",
+  tier: "b",
+  year: 2006,
+  decade: "2000s",
+  genre: ["Slice of Life", "Drama"],
+  cover: "images/bartender.webp",
+  description: "A bartender helps people through their problems one drink at a time."
+},
+{
+  title: "Aria the Animation",
+  tier: "a",
+  year: 2005,
+  decade: "2000s",
+  genre: ["Slice of Life", "Fantasy"],
+  cover: "images/aria.webp",
+  description: "Relaxing gondola life on a terraformed Mars."
+},
+{
+  title: "Gankutsuou",
+  tier: "a",
+  year: 2004,
+  decade: "2000s",
+  genre: ["Drama", "Sci-Fi"],
+  cover: "images/gankutsuou.webp",
+  description: "Stylized retelling of The Count of Monte Cristo."
+},
+{
+  title: "Aoi Bungaku Series",
+  tier: "b",
+  year: 2009,
+  decade: "2000s",
+  genre: ["Drama", "Psychological"],
+  cover: "images/aoi_bungaku.webp",
+  description: "Adaptations of classic Japanese literature."
+},
+{
+  title: "Ping Pong Club",
+  tier: "c",
+  year: 1995,
+  decade: "1990s",
+  genre: ["Comedy", "Ecchi"],
+  cover: "images/ping_pong_club.webp",
+  description: "Crude, chaotic comedy centered around a ping pong club."
+}
 ];
 
